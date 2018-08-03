@@ -31,5 +31,4 @@ public class LaithanCobaPercabangan1 {
         if(a > 5)
             System.out.println("nilai a lebih dari 5");
     }
- 
 }
