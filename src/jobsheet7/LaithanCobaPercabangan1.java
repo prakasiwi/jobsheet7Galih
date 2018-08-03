@@ -74,5 +74,11 @@ public class LaithanCobaPercabangan1 {
             case 5 :  System.out.println("nilai a => 5"); break;
             default:  System.out.println("nilai a bukan antara 1-5"); 
         }
+        int nilai;
+        System.out.println("\nNilai Anda ?");
+        nilai = scanner.nextInt();
+        
+        String grade = (nilai < 75)? "belum kommpeten" : "kompeten";
+        System.out.println(nilai + " => " + grade);
     }
 }
